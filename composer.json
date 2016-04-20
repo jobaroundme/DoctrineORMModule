@@ -31,15 +31,9 @@
             "email": "guilhermeblanco@hotmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/jobaroundme/DoctrineModule"
-        }
-    ],
     "require":           {
         "php":                               "^5.5 || ^7.0",
-        "doctrine/doctrine-module":          "dev-hotfix/zend-hydrator",
+        "doctrine/doctrine-module":          "~1.0",
         "doctrine/orm":                      ">=2.5,<2.7",
         "doctrine/dbal":                     ">=2.4,<2.7",
         "zendframework/zend-stdlib":         "^2.5|~3.0",
